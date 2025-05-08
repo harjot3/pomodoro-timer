@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    /*
+        Wallpaper Information
+        - URL: https://wallpapercave.com/w/wp12981863
+        - Uploaded by User:danilolopes05
+        - Website Domain: WallpaperCave
+    */
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+button {
+    all: unset;
+}
+
+
+.title-container{
+    color:papayawhip;
+    font-size: 2.5rem;
+    margin-top: 0px;
+}
+
+.timer-container {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 0px;
+}
+
+/* Parent Container */
+.button-container {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    color: white;
+}
+
+    /* Children */
+    .btn-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #04AA6D;
+
+
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+
+        font-size: 1.1rem;
+        cursor: pointer;
+        user-select: none;
+    }
+
+.circle {
+    color: white;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
