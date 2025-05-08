@@ -7,8 +7,8 @@ body {
     /*
         Wallpaper Information
         - URL: https://wallpapercave.com/w/wp12981863
-        - Uploaded by User:danilolopes05
         - Website Domain: WallpaperCave
+        - User: danilolopes05
     */
     background-image: url('background.png');
     background-size: cover;
@@ -32,14 +32,6 @@ body {
     margin-bottom: 0px;
 }
 
-.circle {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    font-size: 1.1rem;
-    cursor: pointer;
-}
-
 .button-container {
     display: flex;
     justify-content: center;
@@ -47,27 +39,43 @@ body {
     gap: 1.5rem;
 }
 
-.start-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #04AA6D;
+.circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    font-size: 1.25rem;
+    cursor: pointer;
 }
 
-.pause-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #04AA6D;
+.circle:hover {
+    background-color: orangered;
 }
 
-.reset-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #04AA6D;
-
+.circle:active {
+    background-color: #fff;
+    transform: scale(0.90);
 }
+
+    .start-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #04AA6D;
+    }
+
+    .pause-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #04AA6D;
+    }
+
+    .reset-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #04AA6D;
+    }
 
 
 
